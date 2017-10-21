@@ -1,0 +1,73 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color:  #222222;
+}
+h1 {
+  font-size: 2rem;
+  font-variant: small-caps;
+  font-weight: 400;
+  text-align:  center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #aaaaaa;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #aaaaaa;
+}
+h3 {
+  font-size: 1.3125rem;
+  font-weight: 600;
+}
+h4 /*их у меня нет, но по заданию прописала*/ {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.sdr, figure {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+  width: 250px;
+  background: #eeeeee;
+  border-radius: 3px;
+  border: 1px;
+  border-color: #dddddd;
+}
+.mainpic {
+  font-weight: 500;
+}
+.other {
+  font-size: 0.8125rem;
+  font-style: italic;
+}
+img {
+  width: 100%;
+  border-radius: 3px;
+}
+p {
+  text-align: justify;
+  text-indent: 40px;
+}
+a {
+  color:  #0088ff;
+  text-decoration: none;
+}
+blockquote {
+  padding: 15px;
+  font-style: italic;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color:  #dddddd;
+}
+q {
+  quotes: "\00ab" "\00bb";
+  font-style: italic;
+  color: #888888;
+}
