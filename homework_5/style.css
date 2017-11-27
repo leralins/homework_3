@@ -45,6 +45,9 @@ header {
 .main {
     padding-top: 36px;
 }
+.vkusnoblock {
+    margin-top: 34px;
+}
 .vkusno {
     font-family: Formular, sans-serif;
     font-size: 32px;
@@ -62,13 +65,12 @@ header {
     color: #80bb3d;
 }
 .panel {
-    margin-bottom: 57px;
     border-radius: 2px;
     background-color: #fefefe;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.21);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
 }
 .prod {
-    margin-top: 21px;
+    margin-top: 16px;
     margin-bottom: 55px;
     padding-bottom: 24px;
     height: 100%;
