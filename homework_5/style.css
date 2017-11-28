@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "Formular";
+    src: url("fonts/Formular-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Formular";
+    src: url("fonts/Formular-Bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Formular";
+    src: url("fonts/Formular-Medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+a {
+    text-decoration: none !important;
+    display: block;
+}
+.logo {
+    width: 204px;
+    height: 60px;
+}
+header {
+    padding-top: 24px;
+}
+.header-links {
+    display: block;
+    margin-top: 13px;
+    font-family: Formular, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4b721d;
+}
+.header-links:visited,
+.header-links:active,
+.header-links:hover {
+    color: #80bb3d;
+    text-decoration: none;
+}
+.main {
+    padding-top: 36px;
+}
+.title {
+    font-family: Formular, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #4b721d;
+    text-align: left;
+}
+.title:hover,
+.title:active{
+    font-family: Formular, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    color: #80bb3d;
+}
+.main-panel {
+    margin-bottom: 57px;
+    border-radius: 2px;
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+.prod {
+    margin-top: 16px;
+    margin-bottom: 55px;
+    padding-bottom: 24px;
+    height: 100%;
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prod-pic {
+    height: 263px;
+    width: 263px;
+}
+.prod-name {
+    margin-left: 29px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: Formular;
+    line-height: normal;
+    font-size: 21px;
+    color: #515151;
+}
+.prod-name:hover,
+.prod-name:focus,
+.prod-name:active {
+    text-decoration: none;
+}
+.prod-price {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 29px;
+    padding-right: 29px;
+}
+.prod-old-price {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #9d9d9d;
+    text-decoration: line-through;
+    font-family: Formular, sans-serif;
+}
+.prod-new-price {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4b721d;
+    font-family: Formular, sans-serif;
+}
+.prod-new-price b {
+    font-size: 21px;
+    font-weight: normal;
+    color: #4b721d;
+}
+.category1 {
+    position: relative;
+    width: 100%;
+    height: 302px;
+    margin-top: 21px;
+    border-radius: 2px;
+    background: linear-gradient( rgba(46, 46, 46, 0.21), rgba(46, 46, 46, 0.21)), url('images/cp-1.jpg');
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+.category2 {
+    position: relative;
+    width: 100%;
+    height: 302px;
+    margin-top: 21px;
+    border-radius: 2px;
+    background-color: rgba(46, 46, 46, 0.21);
+    background-image: url('images/cp-2.jpg');
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+.category3 {
+    position: relative;
+    width: 100%;
+    height: 364px;
+    margin-top: 30px;
+    border-radius: 2px;
+    background: linear-gradient( rgba(46, 46, 46, 0.21), rgba(46, 46, 46, 0.21));
+    background-image: url('images/cp-3.jpg');
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+#our-prods {
+    text-transform: uppercase;
+}
+.category-name {
+    position: absolute;
+    display: block;
+    margin: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: Formular;
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.category-name:hover,
+.category-name:active {
+    color: #fff;
+    text-decoration: none;
+}
+.infoblock {
+    margin-top: 85.6px;
+    background-color: #f4f4f4;
+    width: 100%;
+    padding-top: 36px;
+}
+.infologo {
+    width: 192px;
+    height: 57px;
+    margin-bottom: 55px;
+}
+.infotext {
+    font-family: Formular;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: normal;
+    color: #666;
+}
+.infotext b {
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.tel-number {
+    font-family: Formular;
+    font-size: 21px;
+    line-height: normal;
+    color: #666;
+    font-weight: 500;
+}
+.copyright {
+    margin-top: 15px;
+    margin-bottom: 21px;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    color: #c3c3c3;
+    font-family: Formular, sans-serif;
+    font-weight: normal;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
