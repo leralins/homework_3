@@ -54,8 +54,7 @@ header {
     text-align: left;
 }
 .title:hover,
-.title:active,
-.title:visited {
+.title:active{
     font-family: Formular, sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -93,7 +92,6 @@ header {
     color: #515151;
 }
 .prod-name:hover,
-.prod-name:visited,
 .prod-name:focus,
 .prod-name:active {
     text-decoration: none;
@@ -173,7 +171,6 @@ header {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 .category-name:hover,
-.category-name:visited,
 .category-name:active {
     color: #fff;
     text-decoration: none;
@@ -201,7 +198,7 @@ header {
     line-height: normal;
     margin-bottom: 20px;
 }
-.number {
+.tel-number {
     font-family: Formular;
     font-size: 21px;
     line-height: normal;
