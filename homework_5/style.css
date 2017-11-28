@@ -18,6 +18,7 @@
 }
 a {
     text-decoration: none !important;
+    display: block;
 }
 .logo {
     width: 204px;
@@ -45,26 +46,24 @@ header {
 .main {
     padding-top: 36px;
 }
-.vkusnoblock {
-    margin-top: 34px;
-}
-.vkusno {
+.title {
     font-family: Formular, sans-serif;
     font-size: 32px;
     font-weight: 500;
-    text-align: left;
     color: #4b721d;
+    text-align: left;
 }
-.vkusno:hover,
-.vkusno:active,
-.vkusno:visited {
+.title:hover,
+.title:active,
+.title:visited {
     font-family: Formular, sans-serif;
     font-size: 32px;
     font-weight: 500;
     text-align: left;
     color: #80bb3d;
 }
-.panel {
+.main-panel {
+    margin-bottom: 57px;
     border-radius: 2px;
     background-color: #fefefe;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
@@ -76,13 +75,15 @@ header {
     height: 100%;
     background-color: #fefefe;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.pp {
+.prod-pic {
     height: 263px;
     width: 263px;
 }
-.pn {
-    height: 52px;
+.prod-name {
     margin-left: 29px;
     margin-bottom: 10px;
     display: block;
@@ -91,36 +92,36 @@ header {
     font-size: 21px;
     color: #515151;
 }
-.pn:hover,
-.pn:visited,
-.pn:focus,
-.pn:active {
+.prod-name:hover,
+.prod-name:visited,
+.prod-name:focus,
+.prod-name:active {
     text-decoration: none;
 }
-.prodpr {
+.prod-price {
     display: flex;
     justify-content: space-between;
     padding-left: 29px;
     padding-right: 29px;
 }
-.pop {
+.prod-old-price {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 28px;
     font-weight: bold;
     color: #9d9d9d;
     text-decoration: line-through;
-    font-family: Formular;
+    font-family: Formular, sans-serif;
 }
-.pnp {
+.prod-new-price {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 28px;
     font-weight: bold;
     color: #4b721d;
-    font-family: Formular;
+    font-family: Formular, sans-serif;
 }
-.pnp b {
+.prod-new-price b {
     font-size: 21px;
     font-weight: normal;
     color: #4b721d;
@@ -132,6 +133,7 @@ header {
     margin-top: 21px;
     border-radius: 2px;
     background: linear-gradient( rgba(46, 46, 46, 0.21), rgba(46, 46, 46, 0.21)), url('images/cp-1.jpg');
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
 }
 .category2 {
     position: relative;
@@ -140,7 +142,8 @@ header {
     margin-top: 21px;
     border-radius: 2px;
     background-color: rgba(46, 46, 46, 0.21);
-    background-image: url('images/cp-2.jpg')
+    background-image: url('images/cp-2.jpg');
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
 }
 .category3 {
     position: relative;
@@ -150,11 +153,12 @@ header {
     border-radius: 2px;
     background: linear-gradient( rgba(46, 46, 46, 0.21), rgba(46, 46, 46, 0.21));
     background-image: url('images/cp-3.jpg');
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
 }
-#our {
+#our-prods {
     text-transform: uppercase;
 }
-.cn {
+.category-name {
     position: absolute;
     display: block;
     margin: 0;
@@ -168,9 +172,9 @@ header {
     color: #fff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
-.cn:hover,
-.cn:visited,
-.cn:active {
+.category-name:hover,
+.category-name:visited,
+.category-name:active {
     color: #fff;
     text-decoration: none;
 }
